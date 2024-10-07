@@ -94,14 +94,7 @@ function Footer() {
                 </table>
             </div>
 
-            <style jsx>{`
-                @media (max-width: 768px) {
-                    td {
-                        flex: 100%; /* Stack columns on mobile */
-                        text-align: center; /* Center-align text */
-                    }
-                }
-            `}</style>
+           
         </>
     );
 }
