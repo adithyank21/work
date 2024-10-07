@@ -2,18 +2,6 @@ import React from 'react';
 import backgroundImage from './images/foot.jpg'; // Adjust the path as needed
 
 function Footer() {
-    // Function to determine card width
-    const updateCardWidth = () => {
-        const width = window.innerWidth;
-        if (width < 480) {
-            return '100%';
-        } else if (width < 768) {
-            return 'calc(50% - 20px)';
-        } else {
-            return 'calc(33.333% - 20px)';
-        }
-    };
-
     return (
         <>
             <div style={{
@@ -105,6 +93,15 @@ function Footer() {
                     </tbody>
                 </table>
             </div>
+
+            <style jsx>{`
+                @media (max-width: 768px) {
+                    td {
+                        flex: 100%; /* Stack columns on mobile */
+                        text-align: center; /* Center-align text */
+                    }
+                }
+            `}</style>
         </>
     );
 }
