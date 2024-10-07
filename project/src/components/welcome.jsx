@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from './images/img4.jpg'; // Adjust the path as needed
+import backgroundImage from './images/headimg.jpg'; // Adjust the path as needed
 
 function Welcome() {
     return (
@@ -14,8 +14,8 @@ function Welcome() {
             alignItems: 'center',
             color: 'black',
         }}>
-            <h1 style={{ textAlign: "center" }}>Welcome</h1>
-            <h3 style={{ textAlign: "center" }}>Jolult Sport Project</h3>
+            <h1 style={{ textAlign: "center" }}>Shop Here</h1>
+            {/* <h3 style={{ textAlign: "center" }}>Jolult Sport </h3> */}
             <p style={{ textAlign: "center" }}>Introducing latest Collection and designs.</p>
             <br/>
             <br/>

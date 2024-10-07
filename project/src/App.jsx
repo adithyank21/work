@@ -7,21 +7,23 @@ import Homepage from './components/homepage.jsx'
 import Welcome from './components/welcome.jsx'
 import Cardssports from './components/cards.jsx'
 import Footer from './components/footer.jsx'
+import ExuseEffect from './components/ex-useeffect.jsx'
 
 function App() {
   
 
   return (
     <>
+    
     <Header/>
       {/* <Slider/> */}
       <Welcome/>
       <br/>
-    
-      <Cardssports/>
+      <ExuseEffect/>
+      {/* <Cardssports/> */}
       <br/>
       <Footer/>
-        
+      
     </>
   )
 }

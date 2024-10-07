@@ -14,7 +14,7 @@ function Footer() {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            color: 'white',
+            color: 'skyblue',
         }}>
             {/* <h1 style={{ textAlign: "center" }}>Welcome</h1> */}
             <h3 style={{ textAlign: "center" }}>Sign Up to Our Newsletter</h3>
@@ -24,45 +24,51 @@ function Footer() {
             <button  style={{backgroundColor:'lightpink',borderRadius:'20px' , width:'150px', color:'black'}}>Submit</button>
         </div>
         <div
-        style={{
-            backgroundColor:'black',
-            height:'300px',
-            display:'flex',
-            justifyContent:'center',
-            alignItems:'center',
-            color:'white',
-            gap:'30px'
-        }}
-        >
-        <h3>Jolt
-            <br/>
-            <h6>Experience the great Outdoors style with Joults.
-                <br/>
-                 Shop now and gear up for adventure in Jolts.  </h6>
-        </h3>
-        <h3>Categories 
-            <br/>
-            <h6>Jackets</h6>
-            <h6>shirts</h6>
-            <h6>Shoes</h6>
-            <h6>Bags</h6>
-      </h3>
-        <h3>Customer Care 
-            <br/>
-            <h6>FAQ</h6>
-            <h6>shipping</h6>
-            <h6>Order status</h6>
-            <h6>Return & Exchange</h6>
-      </h3>
-        <h3>Company 
-            <br/>
-            <h6>Privacy</h6>
-            <h6>Guides</h6>
-            <h6>Terms And Conditions</h6>
+    style={{
+        backgroundColor: 'black',
+        color: 'white',
+        height: '300px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+    }}
+>
+    <table style={{ borderCollapse: 'collapse', width: '100%', height: '100%' }}>
+        <tbody>
+            <tr style={{ height: '100%', textAlign: 'center' }}>
+                <td style={{ verticalAlign: 'middle', padding: '20px' }}>
+                    <h3 style={{ margin: 0 }}>Jolt</h3>
+                    <h6 style={{ margin: 0 }}>
+                        Experience the great Outdoors style with Joults.
+                        <br />
+                        Shop now and gear up for adventure in Jolts.
+                    </h6>
+                </td>
+                <td style={{ verticalAlign: 'middle', padding: '20px' }}>
+                    <h3 style={{ margin: 0 }}>Categories</h3>
+                    <h6 style={{ margin: 0 }}>Jackets</h6>
+                    <h6 style={{ margin: 0 }}>Shirts</h6>
+                    <h6 style={{ margin: 0 }}>Shoes</h6>
+                    <h6 style={{ margin: 0 }}>Bags</h6>
+                </td>
+                <td style={{ verticalAlign: 'middle', padding: '20px' }}>
+                    <h3 style={{ margin: 0 }}>Customer Care</h3>
+                    <h6 style={{ margin: 0 }}>FAQ</h6>
+                    <h6 style={{ margin: 0 }}>Shipping</h6>
+                    <h6 style={{ margin: 0 }}>Order Status</h6>
+                    <h6 style={{ margin: 0 }}>Return & Exchange</h6>
+                </td>
+                <td style={{ verticalAlign: 'middle', padding: '20px' }}>
+                    <h3 style={{ margin: 0 }}>Company</h3>
+                    <h6 style={{ margin: 0 }}>Privacy</h6>
+                    <h6 style={{ margin: 0 }}>Guides</h6>
+                    <h6 style={{ margin: 0 }}>Terms And Conditions</h6>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-
-        </h3>
-        </div>
         </>
     );
 }
